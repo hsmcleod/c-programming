@@ -6,6 +6,7 @@ in  cm^2 as the output with 2 decimal places */
 
 int main(void){
   float inches, centimeters, area;
+  
   printf("Enter side length in inches: \n");
   scanf("%f", &inches);
   
