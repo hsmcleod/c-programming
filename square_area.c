@@ -8,7 +8,10 @@ int main(void){
   float inches, centimeters, area;
   printf("Enter side length in inches: \n");
   scanf("%f", &inches);
+  
   centimeters = inches * SCALE_FACTOR;
+  area = centimeters * centimeters;
+  
   printf("Area in cm^2: %.2f\n, area);
   return 0;
 }
